@@ -1,0 +1,197 @@
+a{	
+	font-family:regular;
+	text-decoration:none;
+	color: black;
+}
+
+
+@font-face {
+  font-family:regular;
+  src: url(Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family:bold;
+  src: url(Lato-Bold.ttf);
+}
+
+#footer {
+	margin: 0% -3% 0% -3.1%;
+	background-color: #F1F1F1;
+	width: 108%;
+	display:inline-block;
+	bottom: 0%;
+}
+
+.foot{
+	    flex-wrap: wrap;
+	height: 10%;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.footButton{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-size: 1.5vw;
+	color: #3d3d3d;
+}
+
+.card{
+	height: 70vh;
+    margin: 5% 0 5% 0;
+    padding: 3vw 5vw 3vw 5vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cardLeft{
+	width: 65%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.cardRight{
+	width: 35%;
+    height: 100%;
+    transition: 0.5s;
+	display: flex;
+	justify-content: space-between;
+    flex-direction: column;
+	margin-top: 15%;
+}
+
+.cardTitle{
+    text-align: left;
+    font-size: 12vh;
+    font-family: bold;
+    color: black;
+    margin: 0 5% 0 5%;	
+	border: 0.25vw solid #A50000;
+	border-style: hidden hidden solid hidden;
+	width: 80%;
+}
+
+.cardText{
+	text-indent: 7%;
+	float:left;
+font-size: 3vh;
+font-family:regular;
+color: black;
+margin: 0 5% 3% 5%;	
+border: 0.15vw solid #A50000;
+border-style: hidden hidden hidden solid;	
+width: 80%;
+background-color: rgb(255,255,255,0.55);
+    box-shadow: 0vw 0vw 4vw 2vw rgb(255,255,255,0.55);
+	padding: 2% 0 0 2%;
+}
+
+.cardButton{
+	width: 60%;
+	margin: 0 0 0 5%;
+	background-image: linear-gradient(315deg, #631b1b , #A50000);
+	border-radius: 1vw;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	text-align: center;
+	color:white;
+	font-size: 3.5vh;	
+	transition: 0.5s ease-out;
+   background-size:1px 200%; 
+   padding: 2%; 
+}
+
+.cardButton:hover{
+	 background-position:-100%;
+}
+
+.cardImage{
+	width:auto;
+	height: 60%;
+	padding: 3%;
+}
+
+.cardCaption{
+	width:92%;
+	height: 60%;
+	padding: 0 4% 4% 4%;
+		float:left;
+font-size: 2.3vh;
+font-family:regular;
+color: darkgray;
+    background-color: rgb(255,255,255,0.55);
+    box-shadow: 0vw 0vw 4vw 2vw rgb(255,255,255,0.55);
+}
+
+.cardCaption2{
+	width:92%;
+	height: 15%;
+	padding: 0 4% 4% 4%;
+		float:left;
+font-size: 2.3vh;
+font-family:regular;
+color: darkgray;
+    background-color: rgb(255,255,255,0.55);
+    box-shadow: 0vw 0vw 4vw 2vw rgb(255,255,255,0.55);
+}
+
+.tripletop{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.tripleBottom{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;	
+}
+
+.tripleCard{
+	display: flex;
+	flex-direction: column;
+	    margin: 3%;
+    width: 29.33%;
+}
+#infoWork{
+	display: flex;
+	flex-direction: column;
+	height: 65vh;
+	overflow: visible;
+}
+
+.tripleButton{
+	width: 100%;
+	margin: 0 0 0 5%;
+	background-image: linear-gradient(315deg, #631b1b , #A50000);
+	border-radius: 0.4vw;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	text-align: center;
+	color:white;
+	font-size: 3.5vh;	
+	transition: 0.5s ease-out;
+   background-size:1px 200%; 
+   padding: 2%; 
+}
+
+.tripleButton:hover{
+	 background-position:-100%;
+	   cursor: pointer; 
+}
+
+#video {
+	height: auto;
+	flex-direction: column;
+	overflow:visable;
+}

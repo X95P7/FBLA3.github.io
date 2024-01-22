@@ -1,0 +1,101 @@
+<head>
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/general.css">
+<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" type="text/css" href="css/form.css">
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<script src="HomeSlideshow.js"></script>
+<title>Help One: Gala</title>
+</head>
+
+<body onLoad="onLoad()">
+<div id="hiddenHeader">
+	<img src="images/Logo.png" id="headerLogo">
+	</div>
+
+<div id="header">
+	<div id="headerLogoWrapper">
+		<img src="assets/helpbanner.jpg" id="headerLogo">    <!--1000px x 200px-->
+	</div>
+	
+	<div id="headerPagesWrapper">
+			<a class="headerButton" id="headerHome" href="index.html">Home</a>
+			<a class="headerButton" id="headerPortfolios" href="aboutus.html">About Us</a>
+			<a class="headerButton" id="headerMyGoal" href="mission.html">Our Mission</a>
+			<a class="headerButton headerSelected" id="headerAboutMe" href="gala.html">Gala event</a>
+			<a class="headerButton" id="headerContact" href="donate.html">Donate</a>
+	</div>
+
+<div id="Main-Wrapper" style="margin-top:5vh;">
+
+	<div class="card" id="GalaTop" style="height: 95vh;">
+		<div class="cardLeft">
+			<p class="cardTitle">The Help One Gala</p>
+			<p class="cardText" >Step into the enchantment of Help One's Gala at Ivanhoe on March 13th, 2024! Join us for a night of elegance and philanthropy, set against the backdrop of Ivanhoe's timeless charm. This exclusive event promises an evening filled with inspiration, featuring captivating speakers, heartwarming success stories, and live entertainment that will leave you mesmerized.
+As we gather at this prestigious venue, your presence contributes directly to Help One's mission of creating positive change in our community. The Gala serves as a vital fundraiser, empowering us to continue our impactful projects and initiatives. Elegant attire, delectable cuisine, and an ambiance of goodwill await you at Ivanhoe, creating the perfect setting for a memorable night dedicated to making a meaningful difference.
+Mark your calendar for March 13th, 2024, and be a part of an unforgettable evening where generosity meets glamor. Your attendance at the Help One Gala not only supports our mission but also adds to the collective spirit of compassion and community service. Join us in transforming lives and building a brighter future together.
+</p>
+		</div>
+		<div class="cardRight">
+			<image class="cardImage" src="images/gala.jpg"> </img>
+			<p class="cardCaption"> </p>
+		</div>
+	</div>
+	
+   <div class="formDiv">
+	<form id="form" action="https://formspree.io/f/xbjnddyl" method="POST">
+			
+						<div id="textTop">
+						
+							<div id="whoAm">
+								<h1 style="font-family: regular; font-size: 4vw;">Sign Up:</h1>
+								
+							</div>
+						
+							<div id="email">
+							<p class="regular">Let us know if you're going to attend the Gala! If you have further inqueries about participating in the Gala please let us know in the "Extra Information" and we'll contact you soon!</p>
+								 <label class="form">
+										<span class = "formText">Your Name:</span>
+										<input type="text" name="Name"  id="formName"  class="feild">
+								</label>
+								
+									 <label class="form">
+										<span class = "formText">Your email:</span>
+										<input type="email" name="Email"  id="formEmail"  class="feild">
+								</label>
+								
+								 <label class="form">
+											<span class = "formText">Extra Information:</span>
+											
+											  <textarea  class="feild" size="30" rows="3" name="Message" id="formMessage" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.">
+											  
+											  </textarea>
+											  
+									</label>
+									
+									<div id="subButtonDiv">
+									<button class="cardButton" type="submit" >Send</button>
+									</div>
+									
+							</div>
+						</div>
+						
+				
+						
+				</form>
+				</div>
+
+	
+</div>
+
+<footer id="footer" style="height: 70%;">
+<div id="fWrap" class="foot">
+	<a class="footButton" href="index.html">Home</a>
+	<a class="footButton" href="portfolio.html">About</a>
+	<a class="footButton" href="aboutme.html">Mission</a>
+	<a class="footButton" href="Contact.html">Gala</a>
+	<a class="footButton" href="goal.html">Donate</a>
+	<a class="footButton" href="copyright.html">Copyright</a>
+</footer>
+
+</body>

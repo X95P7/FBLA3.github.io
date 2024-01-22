@@ -1,0 +1,123 @@
+<head>
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/general.css">
+<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<script src="HomeSlideshow.js"></script>
+<title>Help One: Home</title>
+</head>
+
+<body onLoad="onLoad()">
+<div id="hiddenHeader">
+	<img src="assets/helpbanner.jpg" id="headerLogo">
+	</div>
+
+<div id="header">
+	<div id="headerLogoWrapper">
+		<img src="assets/helpbanner.jpg" id="headerLogo">    <!--1000px x 200px-->
+	</div>
+	
+	<div id="headerPagesWrapper">
+			<a class="headerButton headerSelected" id="headerHome" href="index.html">Home</a>
+			<a class="headerButton" id="headerPortfolios" href="aboutus.html">About Us</a>
+			<a class="headerButton" id="headerMyGoal" href="mission.html">Our Mission</a>
+			<a class="headerButton" id="headerAboutMe" href="gala.html">Gala event</a>
+			<a class="headerButton" id="headerContact" href="donate.html">Donate</a>
+	</div>
+</div>
+<div id="slideshow">
+<canvas id="slideshowCanvas" width="100%" height="40%"></canvas>
+<a href="portfolio.html" id="slideshowButton">Learn More</a>
+</div>
+
+<div id="Main-Wrapper">
+<!-- About Help One -->
+	<div class="card" id="infoAbout">
+		<div class="cardLeft">
+			<p class="cardTitle">About </p>
+			<p class="cardText">Help One is a vibrant high school club based at Mundelein High School, established two years ago with a mission to make a positive impact on the local community. With around 60 dedicated members, Help One is a medium-sized group that channels its energy into various community  projects, including donation drives, making blankets, creating heartfelt cards, and organizing gift drives. The club's name, "Help One," reflects its core philosophy of caring for each individual, emphasizing a personal and compassionate approach to community service. Join us in our journey to make a difference, one person at a time.</p>
+			<a class="cardButton" href="about.html">Learn More</a>
+		</div>
+		<div class="cardRight">
+			<image class="cardImage" src="images/group.JPG"> </img>
+			<p class="cardCaption">A group picture of Help One’s members after our morning of making blankets! </p>
+		</div>
+	</div>
+	
+	<!-- Help One's Mission -->
+	<div class="card" id="infoMission">
+		<div class="cardLeft">
+			<p class="cardTitle">Mission </p>
+			<p class="cardText">At Help One, our mission is simple yet profound: to extend a helping hand and make a meaningful impact on the lives of those in need. We are driven by the belief that small acts of kindness can create a ripple effect of positive change. With a focus on community service, we engage in diverse projects that aid our communities. Our ultimate goal is to embody the spirit of compassion and empathy, striving to make a difference in the lives of individuals within our local community - making the world a better place, one act of kindness at a time.</p>
+			<a class="cardButton" href="mission.html">Learn More </a>
+		</div>
+		<div class="cardRight">
+			<image class="cardImage" src="images/founder.JPG"> </img>
+			<p class="cardCaption">Help one’s founders Victoria, Mila, Natalie, and Nicole</p>
+		</div>
+	</div>
+	
+	<!-- What they do -->
+	<div class="card" id="infoWork" style="padding-top: 7vw;">
+		<div class="tripleTop">
+			<p class="cardTitle" style="text-align:center;">What We've done </p>
+		</div>
+		<div class="tripleBottom">
+			<div id="tripleLeft" class="tripleCard">
+				<image class="cardImage" src="images/blanket.JPG"> </img>
+				<p class="cardCaption2">Help One spent a morning creating blankets to give to the locale homeless shelter</p>
+				<a class="tripleButton" href="aboutus.html#info1">Read More</a>
+			</div>
+			<div id="tripleCenter" class="tripleCard">
+				<image class="cardImage" src="images/card.JPG"> </img>
+				<p class="cardCaption2">Help One created Cards for people in assisted living homes who may not have family to meet them during christmas.
+</p>
+				<a class="tripleButton" href="aboutus.html#info2">Read More</a>
+			</div>
+			<div id="tripleRight" class="tripleCard">
+				<image class="cardImage"src="images/gift.JPG"> </img>
+				<p class="cardCaption2">Help Ones donation drive was able to deliver essential items to a local women and childrens shelter</p>
+				<a class="tripleButton" href="aboutus.html#info3">Read More</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- The Gala -->
+	<div class="card" id="infoGala" style="height: 75vh;">
+		<div class="cardLeft">
+			<p class="cardTitle">Gala </p>
+			<p class="cardText">Join us at the Help One Gala, an unforgettable evening dedicated to making a difference! This exclusive event aims to raise crucial funds for our organization, enabling us to continue with our community projects. The gala promises an evening of inspiration, featuring engaging speakers, heartwarming success stories, and a celebration of our collective efforts. By attending or donating, you contribute directly to local initiatives, fostering positive change. Be a part of this transformative experience, where your presence translates into tangible support for Help One's mission of compassion and community service. Together, let's create lasting impact and uplift lives.</p>
+			<a class="cardButton" href="gala.html">Learn More </a>
+		</div>
+		<div class="cardRight">
+			<image class="cardImage" src="images/gala.jpg"> </img>
+			<p class="cardCaption">The Gala will be hosted at the Ivanhoe country club and golf course on 3/13/24</p>
+		</div>
+	</div>
+	
+	<!-- Donantions would be appriciated -->
+	<div class="card" id="infoDonantion">
+		<div class="cardLeft">
+			<p class="cardTitle"> Donantions</p>
+			<p class="cardText">Your donation to Help One is a direct investment in creating a positive impact within our local community. By supporting our club, you enable us to continue meaningful projects. Every contribution, no matter the size, plays a vital role in making a difference in the lives of those in need. Help One operates on the principle that small acts of kindness can lead to substantial positive change. Your donation helps us extend our reach and amplify the impact of our compassionate initiatives. Join us in building a more caring and supportive community – donate to Help One today.</p>
+			<a class="cardButton" href="donation.html">Donate Here!</a>
+		</div>
+		<div class="cardRight">
+			<image class="cardImage" src="assets/helplogo.jpg"> </img>
+			<p class="cardCaption">Donate Here!</p>
+		</div>
+	</div>
+	
+</div>
+
+<footer id="footer">
+<div id="fWrap" class="foot">
+	<a class="footButton" href="index.html">Home</a>
+	<a class="footButton" href="aboutus.html">About</a>
+	<a class="footButton" href="mission.html">Mission</a>
+	<a class="footButton" href="Contact.html">Gala</a>
+	<a class="footButton" href="goal.html">Donate</a>
+	<a class="footButton" href="copyright.html">Copyright</a>
+</footer>
+
+</body>
