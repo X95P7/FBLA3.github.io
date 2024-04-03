@@ -70,7 +70,7 @@ a{
 
 .cardTitle{
     text-align: left;
-    font-size: 12vh;
+    font-size: 12vw;
     font-family: bold;
     color: black;
     margin: 0 5% 0 5%;	
@@ -82,7 +82,7 @@ a{
 .cardText{
 	text-indent: 7%;
 	float:left;
-font-size: 3vh;
+font-size: 3vw;
 font-family:regular;
 color: black;
 margin: 0 5% 3% 5%;	
@@ -104,7 +104,7 @@ background-color: rgb(255,255,255,0.55);
     align-items: center;
 	text-align: center;
 	color:white;
-	font-size: 3.5vh;	
+	font-size: 3.5vw;	
 	transition: 0.5s ease-out;
    background-size:1px 200%; 
    padding: 2%; 
@@ -125,7 +125,7 @@ background-color: rgb(255,255,255,0.55);
 	height: 60%;
 	padding: 0 4% 4% 4%;
 		float:left;
-font-size: 2.3vh;
+font-size: 2.3vw;
 font-family:regular;
 color: darkgray;
     background-color: rgb(255,255,255,0.55);
@@ -137,7 +137,7 @@ color: darkgray;
 	height: 15%;
 	padding: 0 4% 4% 4%;
 		float:left;
-font-size: 2.3vh;
+font-size: 2.3vw;
 font-family:regular;
 color: darkgray;
     background-color: rgb(255,255,255,0.55);
@@ -179,7 +179,7 @@ color: darkgray;
     align-items: center;
 	text-align: center;
 	color:white;
-	font-size: 3.5vh;	
+	font-size: 3.5vw;	
 	transition: 0.5s ease-out;
    background-size:1px 200%; 
    padding: 2%; 
