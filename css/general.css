@@ -70,7 +70,7 @@ a{
 
 .cardTitle{
     text-align: left;
-    font-size: 12vw;
+    font-size: 9vw;
     font-family: bold;
     color: black;
     margin: 0 5% 0 5%;	
@@ -82,7 +82,7 @@ a{
 .cardText{
 	text-indent: 7%;
 	float:left;
-font-size: 3vw;
+font-size: 2vw;
 font-family:regular;
 color: black;
 margin: 0 5% 3% 5%;	
