@@ -40,7 +40,7 @@ a{
 }
 
 .card{
-	height: 70vw;
+	height: auto;
     margin: 5% 0 5% 0;
     padding: 3vw 5vw 3vw 5vw;
     align-items: center;
