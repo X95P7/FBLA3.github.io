@@ -25,7 +25,7 @@ a{
 
 .foot{
 	    flex-wrap: wrap;
-	height: 10%;
+	height: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
